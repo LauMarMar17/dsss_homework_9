@@ -61,7 +61,7 @@ async def custom_responses(update: Update, context: ContextTypes.DEFAULT_TYPE) -
 def main() -> None:
     """Start the bot."""
     # Create the Application and pass it your bot's token.
-    application = Application.builder().token("8170401737:AAFDSVLU_4BDc_2LB6ZCTv20YFT6s2ydaSw").connect_timeout(30.0).build()
+    application = Application.builder().token("8170401737:AAEmy0rBegkpxoaY4VrmgVcHQ5R4iXhtosYw").connect_timeout(30.0).build()
 
     # on different commands - answer in Telegram
     application.add_handler(CommandHandler("start", start))
